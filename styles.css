@@ -1,0 +1,57 @@
+*{
+    padding:0;
+    margin:0;
+    /* background-color:#faf4ee; */
+    box-sizing: border-box;
+}
+html{
+    background-color: #faf4ee;
+}
+/* Start Header */
+.header{
+    background-color: #f8e1db;
+    padding:10px 50px ;
+}
+.header_logo img{
+    width: 40px;
+    height: 40px;
+}
+.header_menu{
+    margin-top: 10px ;
+}
+.header_menu li{
+    display: inline;
+    margin-right: 30px;
+}
+/* End Header */
+
+/* Start Slider */
+.slide{
+    background-image: url('./image/BG.png');
+    background-position: center;
+    background-size: cover;
+    height: 750;
+    z-index: 2;
+}
+/* End Slider */
+
+/* Start Activities */
+.activities{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 40px 0 15px;
+}
+.activities_content{
+    font-weight: 800;
+    color:gray;
+}
+/* End Activities */
+
+/* Start List_Card */
+.card_item{
+    padding: 10px;
+}
+/* End List_Card */
